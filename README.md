@@ -57,15 +57,7 @@ Three composite scores are built (no Goaltending dimension for individual player
 
 ## Outputs
 
-**Section 1: Which metrics separate contenders?**
-
-![Stat Frequency](outputs/stat_frequency_bar_chart.png)
-
-Offensive metrics appeared in the top 10 for Conference Finals teams at least 10 times across the sample period. Defensive and goaltending metrics appeared 8 or more times. Offense is the most consistent differentiator.
-
----
-
-**Section 2: Minnesota vs. historical contenders**
+**Section 1: Minnesota vs. historical contenders**
 
 ![Historical Team Comparison](outputs/team_comparison_historical.png)
 
@@ -73,7 +65,7 @@ Minnesota sits well below average in possession and offensive quality. Elite goa
 
 ---
 
-**Section 3: Minnesota vs. current rivals (82-game pace)**
+**Section 2: Minnesota vs. current rivals (82-game pace)**
 
 ![Rivals Comparison](outputs/team_comparison_rivals_82game.png)
 
@@ -81,7 +73,7 @@ Carolina, Washington, and Colorado are operating at a much higher statistical le
 
 ---
 
-**Section 4: Defensemen PCA comparison**
+**Section 3: Defensemen PCA comparison**
 
 ![Defensemen PCA](outputs/defensemen_pca_comparison.png)
 
@@ -102,7 +94,6 @@ Hughes stands out in both Possession and Offensive Quality. Evan Bouchard rates 
 ├── team_contender_pca_analysis.py   # Stage 1: team PCA (adjust COMPARISON_TEAMS for historical vs rivals view)
 ├── defensemen_pca_scatter.py        # Stage 2: defensemen PCA scatter
 ├── outputs/
-│   ├── stat_frequency_bar_chart.png
 │   ├── team_comparison_historical.png
 │   ├── team_comparison_rivals_82game.png
 │   └── defensemen_pca_comparison.png
